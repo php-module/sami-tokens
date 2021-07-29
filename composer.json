@@ -7,10 +7,12 @@
   "minimum-stability": "dev",
 	"keywords": [
 		"sami-tokens",
+    "php_modules",
     "tokens",
     "sami",
-    "php_modules/sami-tokens",
-    "php_modules"
+    "string generator",
+    "random string",
+    "random string generator"
 	],
 	"autoload": {
 		"psr-4": { "Sammy\\": "Sammy/" },
