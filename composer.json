@@ -1,6 +1,6 @@
 {
 	"name": "php_modules/sami-tokens",
-	"version": "1.0",
+	"version": "1.0.1",
 	"description": "Random string/token generator",
   "type": "library",
 	"license": "MIT",
