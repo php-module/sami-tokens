@@ -20,7 +20,7 @@
 			"autoload.php"
 		]
 	},
-  "homepage": "https://github.com/agostinhosamil/sami-tokens",
+  "homepage": "https://github.com/php-module/sami-tokens",
   "readme": "./README.md",
   "authors": [
     {
@@ -32,8 +32,8 @@
   ],
   "support": {
     "email": "base.samils@gmail.com",
-    "issues": "https://github.com/agostinhosamil/sami-tokens/issues",
-    "wiki": "https://github.com/agostinhosamil/sami-tokens/wiki"
+    "issues": "https://github.com/php-module/sami-tokens/issues",
+    "wiki": "https://github.com/php-module/sami-tokens/wiki"
   },
 	"require": {
 		"php": ">=5.6.20",
