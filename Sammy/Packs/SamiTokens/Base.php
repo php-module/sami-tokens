@@ -62,7 +62,7 @@ namespace Sammy\Packs\SamiTokens {
      */
     private $abc = 'abcdefghijklmnopqrstuvwxyz';
 
-    public final function __construct(){
+    public function __construct(){
 
       /**
        * ...
@@ -78,7 +78,7 @@ namespace Sammy\Packs\SamiTokens {
      * specified pattern. default's:
      * a-zA-Z0-9
      */
-    public final function newToken($len = 11){
+    public function newToken($len = 11){
 
       $len = is_string($len) ? strtolower($len) : $len;
 
@@ -119,7 +119,7 @@ namespace Sammy\Packs\SamiTokens {
      * Generate a new token by the
      * a-zA-Z0-9 pattern
      */
-    public final function token($len = 11){
+    public function token($len = 11){
       /**
        * Token length
        */
@@ -169,7 +169,7 @@ namespace Sammy\Packs\SamiTokens {
      * Generate a new token by the
      * a-zA-Z pattern
      */
-    public final function newAlphaToken($len = null){
+    public function newAlphaToken($len = null){
 
       /**
        * Token length
@@ -219,7 +219,7 @@ namespace Sammy\Packs\SamiTokens {
      * Generate a new token by the
      * 0-1 pattern
      */
-    public final function newNumericToken($len = null){
+    public function newNumericToken($len = null){
 
       /**
        * Token length
